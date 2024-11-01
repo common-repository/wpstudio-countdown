@@ -1,0 +1,52 @@
+/* COUNTDOWN WIDGET */
+.gcd-countdown {
+	text-align: center;
+	position: relative;
+	z-index: 40;
+}
+.gcd-countdown #clock {
+	color: #000;
+	font-size: 24px;
+	font-size: 2.4rem;
+	margin: 40px 0;
+	text-align: center;
+}
+.gcd-countdown #clock div {
+	border: 2px solid #000;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 0 20px 10px 20px;
+	padding: 20px;
+	text-align: center;
+	width: 120px;
+	height: 120px;
+	padding: 32px;
+	}
+.gcd-countdown #clock div .label {
+	display: block;
+	font-size: 20px;
+	line-height: 24px;
+}
+
+.gcd-countdown #clock div .button {
+	background: #fff;
+	color: $normal;
+	display: inline-block;
+}
+
+.gcd-countdown #clock div .widget-title {
+	color: #fff !important;
+	display: inline-block;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	font-size: 2.4rem;
+	letter-spacing: normal;
+}
+
+.gcd-countdown #clock div .subtitle {
+	color: #fff;
+	font-weight: normal;
+	opacity: .7;
+}
